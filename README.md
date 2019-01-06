@@ -12,14 +12,11 @@ There the jellyfin app shuld be in the list to deploy like any other prepared ap
 Choose to install it like any other app. It will allow for the cron job backups as desired and give you the URL and port needed to access the web front end of Jellyfin.
 
 #Instructions
-cd /opt/mycontainers
 
-git init
-
-git remote add origin https://github.com/timekills/jellyfin-for-plexguide.git
-
-git pull origin master
-
-Run Plexguide
+1. cd /opt/mycontainers
+2. git init
+3. git remote add origin https://github.com/timekills/jellyfin-for-plexguide.git
+4. git pull origin master
+5. Run Plexguide
 
 Deploy jellyfin app like any other app
