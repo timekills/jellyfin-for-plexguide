@@ -13,9 +13,13 @@ Choose to install it like any other app. It will allow for the cron job backups 
 
 #Instructions
 cd /opt/mycontainers
+
 git init
+
 git remote add origin https://github.com/timekills/jellyfin-for-plexguide.git
+
 git pull origin master
 
 Run Plexguide
+
 Deploy jellyfin app like any other app
